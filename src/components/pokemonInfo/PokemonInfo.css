@@ -1,0 +1,85 @@
+.pokemonInfoCard {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    animation: infoPok;
+    animation-duration: .3s;
+}
+
+.pokemonInfoCard__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonInfoCard__image img {
+    width: 20rem;
+    height: 20rem;
+    
+}
+
+.pokemonInfoCard__info {
+    background-color: var(--color-blue);
+    width: 50rem;
+    padding: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pokemonInfoCard__info p {
+    color: var(--color-white);
+}
+
+.pokemonInfoCard__info p span.stat {
+    color: var(--color-yellow);
+}
+
+.pokemonInfoCard__option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokemonInfoCard__option button {
+    width: 20rem;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.cancelSelection {
+    background-color: var(--color-cancel);
+    color: var(--color-white);
+}
+
+.cancelSelection:hover {
+    background-color: var(--color-cancel-hover);
+
+}
+
+.addSelection {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.addSelection:hover {
+    background-color: var(--color-ok-hover);
+}
+
+@keyframes infoPok {
+    0% {
+       transform: scale(0);
+    }
+    50% {
+       transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

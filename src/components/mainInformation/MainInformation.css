@@ -1,0 +1,19 @@
+.mainInformation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pokedexButton {
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+}
+
+.pokedexButton a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-blue);
+}

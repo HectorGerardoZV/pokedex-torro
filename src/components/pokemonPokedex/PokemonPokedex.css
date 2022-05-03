@@ -1,0 +1,38 @@
+.pokemonPD{
+    width: 20rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    background-color: var(--color-blue);
+    padding: 5rem;
+    transition: .2s ease;
+    cursor: pointer;
+}
+.pokemonPD:hover{
+    background-color: var(--color-ok-hover);
+}
+
+.pokemonPD p{
+    color: var(--color-white);
+}
+
+.pokemonPD img{
+    width: 15rem;
+    height: 15rem;
+    animation: imageLoad;
+    animation-duration: .8s;
+}
+
+@keyframes imageLoad {
+    0%{
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+    }
+}
