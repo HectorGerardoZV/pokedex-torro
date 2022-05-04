@@ -4,9 +4,13 @@
     position: relative;
 }
 
+.pokedexSection{
+    width: 100%;
+    height: 100%;
+}
 .pokedex__header {
     background-color: var(--color-blue);
-    padding: 2.5rem 5rem;
+    padding: 2rem 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -18,10 +22,11 @@
     justify-content: center;
     padding: 1rem;
     background-color: var(--color-yellow);
-    width: 20rem;
+    width: 15rem;
     gap: 1rem;
     border-radius: 1rem;
     color: var(--color-blue);
+    font-size: 1.8rem;
 }
 
 .pokedexLogo {
@@ -46,7 +51,7 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .pokedex__sercher input {
@@ -85,12 +90,12 @@
 
 .pokedex__pokemons {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     gap: 2rem;
 
-    height: 60rem;
+    height: 45rem;
     overflow-y: scroll;
-    padding: 3rem 0rem;
+    padding: 1rem 0rem;
 }
 
 

@@ -25,8 +25,8 @@ const PokeDex = () => {
 
   return (
     <div className="pokedexLayout">
-      <section>
-
+      <section className="pokedexSection">
+      
         <div className="pokedex__header">
           <Link to={"/"}>
             <img src={Back} alt="Product" />

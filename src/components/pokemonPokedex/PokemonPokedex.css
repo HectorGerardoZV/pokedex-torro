@@ -1,6 +1,6 @@
 .pokemonPD{
-    width: 20rem;
-    height: 23rem;
+    width: 15rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,11 +18,12 @@
 
 .pokemonPD p{
     color: var(--color-white);
+    font-size: 1rem;
 }
 
 .pokemonPD img{
-    width: 15rem;
-    height: 15rem;
+    width: 7rem;
+    height: 7rem;
     animation: imageLoad;
     animation-duration: .8s;
 }
